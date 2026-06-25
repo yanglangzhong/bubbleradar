@@ -1,0 +1,79 @@
+{
+  "title": "综合风险仪表盘",
+  "formula": "综合指数 = AI泡沫分×0.30 + 中国风险分×0.30 + 全球风险分×0.25 + 加密风险分×0.15",
+  "updatedAt": "更新于",
+  "wsConnected": "WebSocket 实时推送",
+  "wsDisconnected": "实时连接断开",
+  "refresh": "刷新",
+  "analysis": {
+    "pending": "系统启动中，数据准备中，请稍候...",
+    "running": "正在分析最新数据...",
+    "ready": "数据已就绪",
+    "error": "分析出错"
+  },
+  "sections": {
+    "latestNews": "最新情报",
+    "topSignals": "核心信号",
+    "categoryScores": "分项得分",
+    "sourceStats": "数据源统计",
+    "historicalChart": "历史风险走势",
+    "insight": "AI 研判"
+  },
+  "category": {
+    "ai": "AI泡沫分",
+    "china": "中国风险分",
+    "global": "全球风险分",
+    "crypto": "加密风险分"
+  },
+  "scoreRange": {
+    "safe": "0-40 安全",
+    "watch": "41-60 关注",
+    "warning": "61-80 预警",
+    "danger": "81-100 危险"
+  },
+  "news": {
+    "empty": "暂无实时新闻",
+    "loading": "新闻源正在接入中，请稍后刷新",
+    "source": "来源",
+    "openOriginal": "点击打开原文",
+    "verifyOriginal": "点击打开原文验证"
+  },
+  "insightLabels": {
+    "sentiment": "市场情绪",
+    "model": "模型"
+  },
+  "signals": {
+    "ai": "今日 TOP1 AI信号",
+    "china": "今日 TOP2 中国信号",
+    "global": "今日 TOP3 全球联动",
+    "empty": "暂无突出风险信号"
+  },
+  "chartSeries": {
+    "composite": "综合指数",
+    "aiSentiment": "AI情绪",
+    "housing": "房地产"
+  },
+  "subsections": {
+    "subIndices": "子指数对比",
+    "aiCore": "AI泡沫核心指标",
+    "chinaCore": "中国风险核心指标",
+    "sources": "数据来源与可信度",
+    "live": "实时接入",
+    "authority": "数据权威性说明",
+    "events": "历史事件标注"
+  },
+  "sourceStats": {
+    "tooltip": "当前有 {{count}} 项数据来自 {{source}}",
+    "loading": "加载中…",
+    "baseline": "历史基线",
+    "simulated": "模拟",
+    "inferred": "推演"
+  },
+  "authorityNotes": [
+    "全球市场数据：Yahoo Finance + FRED（美国联邦储备经济数据）",
+    "中国宏观数据：AkShare（东方财富 / 国家统计局公开数据）",
+    "新闻情绪：Yahoo Finance、BBC、新华网等主流媒体 RSS",
+    "标注「历史基线」的条目为无实时数据时的降级填充，非实时行情"
+  ],
+  "fallbackDesc": "优先接入 FRED（圣路易斯联储官方）、Yahoo Finance、Alpha Vantage、AkShare（东方财富等公开数据）等权威数据源。当实时源暂时不可达时，自动回退到最近一次真实快照或历史基线，并在卡片中明确标注来源，避免伪造波动。"
+}

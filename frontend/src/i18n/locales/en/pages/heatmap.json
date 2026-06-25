@@ -1,0 +1,13 @@
+{
+  "title": "Risk Heatmap",
+  "subtitle": "Time × Indicator matrix; darker colors represent higher risk levels",
+  "daysSuffix": "d",
+  "statusLabels": ["Safe", "Watch", "Warning", "Danger"],
+  "noData": "No data",
+  "categories": {
+    "ai": "AI Bubble",
+    "china": "China Risk",
+    "global": "Global Risk",
+    "crypto": "Crypto Risk"
+  }
+}

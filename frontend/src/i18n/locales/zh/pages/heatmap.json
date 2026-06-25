@@ -1,0 +1,13 @@
+{
+  "title": "风险热力图",
+  "subtitle": "时间 × 指标矩阵，颜色越深代表风险等级越高",
+  "daysSuffix": "天",
+  "statusLabels": ["安全", "关注", "警告", "危险"],
+  "noData": "无数据",
+  "categories": {
+    "ai": "AI 泡沫",
+    "china": "中国风险",
+    "global": "全球风险",
+    "crypto": "加密风险"
+  }
+}

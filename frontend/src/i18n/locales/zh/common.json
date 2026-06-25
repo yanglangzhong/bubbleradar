@@ -1,0 +1,40 @@
+{
+  "app": {
+    "name": "泡沫雷达",
+    "tagline": "看见狂热，标记危险"
+  },
+  "loading": "加载中...",
+  "live": "LIVE",
+  "close": "关闭",
+  "retry": "重试",
+  "refresh": "刷新",
+  "submit": "提交",
+  "cancel": "取消",
+  "save": "保存",
+  "delete": "删除",
+  "edit": "编辑",
+  "add": "新增",
+  "search": "搜索",
+  "noData": "暂无数据",
+  "unknown": "未知",
+  "updatedAt": "更新于",
+  "source": "数据源",
+  "sources": "数据源",
+  "failedSources": "失败数据源",
+  "status": {
+    "safe": "安全",
+    "watch": "关注",
+    "warning": "警戒",
+    "danger": "危险",
+    "loading": "加载中"
+  },
+  "error": {
+    "loadFailed": "数据加载失败，请稍后重试",
+    "partialLoadFailed": "部分数据加载失败，点击右侧按钮重试",
+    "networkError": "网络请求失败，请检查连接后重试",
+    "pageError": "页面加载出错",
+    "pageErrorDesc": "抱歉，该页面在渲染时发生了意外错误。请尝试刷新页面或返回首页。",
+    "reload": "刷新页面",
+    "backHome": "返回首页"
+  }
+}

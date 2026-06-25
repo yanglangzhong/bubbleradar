@@ -1,0 +1,40 @@
+{
+  "app": {
+    "name": "BubbleRadar",
+    "tagline": "See the frenzy, mark the danger"
+  },
+  "loading": "Loading...",
+  "live": "LIVE",
+  "close": "Close",
+  "retry": "Retry",
+  "refresh": "Refresh",
+  "submit": "Submit",
+  "cancel": "Cancel",
+  "save": "Save",
+  "delete": "Delete",
+  "edit": "Edit",
+  "add": "Add",
+  "search": "Search",
+  "noData": "No data",
+  "unknown": "Unknown",
+  "updatedAt": "Updated at",
+  "source": "Source",
+  "sources": "Sources",
+  "failedSources": "Failed sources",
+  "status": {
+    "safe": "Safe",
+    "watch": "Watch",
+    "warning": "Warning",
+    "danger": "Danger",
+    "loading": "Loading"
+  },
+  "error": {
+    "loadFailed": "Failed to load data, please try again later",
+    "partialLoadFailed": "Some data failed to load, click the button on the right to retry",
+    "networkError": "Network request failed, please check your connection and retry",
+    "pageError": "Page load error",
+    "pageErrorDesc": "Sorry, an unexpected error occurred while rendering this page. Please try refreshing or return to the home page.",
+    "reload": "Reload page",
+    "backHome": "Back to home"
+  }
+}

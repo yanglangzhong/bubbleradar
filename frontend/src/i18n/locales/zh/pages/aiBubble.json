@@ -1,0 +1,22 @@
+{
+  "title": "AI泡沫综合监测面板",
+  "subtitle": "当所有人都在谈论AI时，我们在计算它值多少钱。",
+  "tabs": {
+    "valuation": "估值泡沫",
+    "funding": "融资狂热",
+    "compute": "算力价格",
+    "sentiment": "情绪温度计"
+  },
+  "charts": {
+    "pePremium": "AI板块PE溢价趋势",
+    "pePremiumRate": "PE溢价率",
+    "historicalAvg": "历史均值",
+    "mag7": "Mag7集中度趋势",
+    "mag7Share": "Mag7占比",
+    "dangerLine": "危险线"
+  },
+  "story": {
+    "title": "估值故事线",
+    "content": "当前AI板块估值已超越2021年疫情泡沫期，但尚未达到2000年互联网泡沫峰值。区别在于：当前AI公司有实际营收，但增速是否能支撑估值存疑。纳斯达克100 P/S达6.5倍，远超2000年峰值4.5倍。"
+  }
+}

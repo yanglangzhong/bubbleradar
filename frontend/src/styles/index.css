@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg-deep: #0B1426;
+    --bg-surface: #111d33;
+    --bg-elevated: #162240;
+    --bg-glass: rgba(22, 34, 64, 0.82);
+    --text-primary: #e8ecf2;
+    --text-secondary: #8a95b0;
+    --text-muted: #556080;
+    --accent-cyan: #00D4AA;
+    --accent-amber: #FF9500;
+    --accent-red: #FF2D55;
+    --accent-purple: #7B61FF;
+    --accent-vermillion: #C41E3A;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-bg-deep text-ink-primary min-h-screen;
+    background-image:
+      linear-gradient(rgba(255, 255, 255, 0.025) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255, 255, 255, 0.025) 1px, transparent 1px),
+      radial-gradient(ellipse 70% 50% at 20% 10%, rgba(123, 97, 255, 0.07) 0%, transparent 60%),
+      radial-gradient(ellipse 60% 50% at 85% 85%, rgba(196, 30, 58, 0.06) 0%, transparent 60%),
+      radial-gradient(ellipse 50% 40% at 50% 50%, rgba(0, 212, 170, 0.04) 0%, transparent 50%);
+    background-size: 48px 48px, 48px 48px, auto, auto, auto;
+    background-attachment: fixed;
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.02);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 3px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.18);
+  }
+}
+
+@layer components {
+  .card {
+    @apply relative bg-bg-elevated/85 backdrop-blur-md border border-white/[0.08] rounded-2xl p-6 shadow-card;
+  }
+
+  .card::before {
+    content: '';
+    @apply absolute inset-0 rounded-2xl pointer-events-none;
+    background: linear-gradient(135deg, rgba(255,255,255,0.04) 0%, transparent 40%, transparent 60%, rgba(255,255,255,0.02) 100%);
+  }
+
+  .card-hover {
+    @apply transition-all duration-300 hover:border-white/20 hover:-translate-y-0.5 hover:shadow-elevated;
+  }
+}

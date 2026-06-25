@@ -1,0 +1,32 @@
+{
+  "title": "每周警报 · 订阅简报",
+  "issue": "第 {{issue}} 期 · {{date}}",
+  "issueDate": "2026年6月22日",
+  "scoreSummary": "本周综合风险指数：{{score}}（较上周 {{change}}）",
+  "status": {
+    "watch": "关注区",
+    "warning": "预警区",
+    "danger": "危险区"
+  },
+  "sections": {
+    "keyMetrics": "一、本周核心指标",
+    "topSignals": "二、本周TOP3信号",
+    "nextFocus": "三、下期关注"
+  },
+  "metrics": {
+    "aiBubble": "AI泡沫分：{{score}}（{{zone}}）— {{desc}}",
+    "aiBubbleDesc": "纳指P/S 6.5x，接近2000年峰值",
+    "chinaRisk": "中国风险分：{{score}}（{{zone}}）— {{desc}}",
+    "chinaRiskDesc": "房地产+地方债双压"
+  },
+  "signals": [
+    "[🔴] 费城半导体指数单日暴跌10.3%",
+    "[🟡] 70城房价中60城二手房下跌",
+    "[🟡] 中美利差倒挂加深至-2.8%"
+  ],
+  "focus": ["美联储6月议息会议", "中国6月PMI数据", "英伟达Q2财报预览"],
+  "subscribe": {
+    "title": "订阅每周警报",
+    "desc": "完整版将支持邮件订阅 + 自定义阈值推送"
+  }
+}

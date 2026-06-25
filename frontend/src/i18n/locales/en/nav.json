@@ -1,0 +1,14 @@
+{
+  "menu": "Navigation",
+  "home": "Home",
+  "aiBubble": "AI Bubble",
+  "chinaRisk": "China Risk",
+  "global": "Global Contagion",
+  "archive": "Crisis Archive",
+  "heatmap": "Heatmap",
+  "crypto": "Crypto Risk",
+  "backtest": "Backtest",
+  "lab": "Data Lab",
+  "weekly": "Weekly Alert",
+  "about": "About"
+}

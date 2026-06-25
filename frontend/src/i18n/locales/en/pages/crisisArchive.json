@@ -1,0 +1,12 @@
+{
+  "title": "Crisis Archive",
+  "subtitle": "Learn from history and build a crisis-recognition framework.",
+  "crises": [
+    { "year": "2000", "title": "Dot-com Bubble", "lesson": "Valuation detached from revenue, \"eyeball economy\" model. Nasdaq PE reached 200x, P/S 4.5x. Cisco PE 472x.", "compare": "Today's AI has real revenue, but Nasdaq 100 P/S has reached 6.5x, surpassing 2000's 4.5x." },
+    { "year": "2008", "title": "Subprime Crisis", "lesson": "Complex derivatives masked risk; ratings failed. MBS/CDO chains broke; interbank liquidity dried up.", "compare": "China's local government debt lacks transparency; LGFV spreads at 285bp approach the red line; bank NIM hits new lows." },
+    { "year": "2015", "title": "A-share Crash", "lesson": "Margin financing, trading halts, liquidity freeze. Margin balance peaked at 2.2tn then crashed.", "compare": "Current margin balance 1.52tn, below 2015 peak, but PB<1 stocks at 8.5% near low signal." },
+    { "year": "2020.3", "title": "COVID Crash", "lesson": "Black swan event, liquidity crisis. US stocks circuit-broke 4 times in 10 days; global central banks cut rates + QE.", "compare": "Policy room has narrowed; global government debt/GDP at 94.7%; VIX in normal range." },
+    { "year": "2021", "title": "Evergrande Crisis", "lesson": "High-turnover model ended; debt chain transmitted. 2tn debt default triggered industry chain reaction.", "compare": "Country Garden + Vanke + Sunac simultaneously in crisis; 100-city second-hand prices -8.55%; deleveraging ongoing." },
+    { "year": "2022", "title": "UK Pension Crisis", "lesson": "LDI strategy vulnerability under rate volatility. Yield surge triggered margin call negative feedback.", "compare": "After China wealth management products moved to NAV pricing, rate volatility may trigger similar negative feedback." }
+  ]
+}

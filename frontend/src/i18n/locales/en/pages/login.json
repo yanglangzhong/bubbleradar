@@ -1,0 +1,10 @@
+{
+  "title": "Login to BubbleRadar",
+  "subtitle": "Please enter admin credentials to continue",
+  "email": "Email",
+  "password": "Password",
+  "submit": "Login",
+  "loggingIn": "Logging in...",
+  "error": "Login failed, please check your email and password",
+  "defaultAccount": "Default account: admin@example.com / admin"
+}

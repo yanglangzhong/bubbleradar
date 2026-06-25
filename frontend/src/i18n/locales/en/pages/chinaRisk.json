@@ -1,0 +1,21 @@
+{
+  "title": "China Risk Radar",
+  "chartTitle": "Risk Radar",
+  "scoreUnit": "pts",
+  "detailCards": {
+    "housing": { "title": "Real Estate", "desc": "New home prices in 70 cities have fallen consecutively; developer defaults are expanding." },
+    "debt": { "title": "Local Gov Debt", "desc": "LGFV bond spreads approach 300bp; off-balance defaults are rising." },
+    "bank": { "title": "Banking System", "desc": "NIM compressed to 1.54%; special-mention loans are rising." },
+    "fx": { "title": "FX & Capital", "desc": "RMB under pressure; northbound funds have flowed out continuously." },
+    "real": { "title": "Real Economy & Jobs", "desc": "Youth unemployment remains high; PPI turned positive but consumption is weak." },
+    "market": { "title": "Capital Market", "desc": "A-share turnover has shrunk; IPO withdrawal rates are rising." }
+  },
+  "tabs": {
+    "housing": "Real Estate",
+    "debt": "Local Debt",
+    "bank": "Banking",
+    "fx": "FX & Capital",
+    "real": "Real Economy",
+    "market": "Capital Market"
+  }
+}

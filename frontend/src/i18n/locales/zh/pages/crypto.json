@@ -1,0 +1,21 @@
+{
+  "title": "加密资产风险监测",
+  "subtitle": "覆盖 BTC、ETH、AI 概念币及加密概念股，追踪数字资产市场的投机热度与回撤风险。",
+  "tabs": {
+    "major": "主流币",
+    "ai": "AI 概念币",
+    "equity": "加密股票"
+  },
+  "charts": {
+    "btcRisk": "BTC 回撤风险",
+    "btcScore": "BTC 风险分",
+    "dangerLine": "危险线",
+    "aiHeat": "AI 概念币热度",
+    "heatScore": "热度分",
+    "warningLine": "警戒线"
+  },
+  "notice": {
+    "title": "加密市场风险提示",
+    "content": "加密货币与 AI 概念股高度相关，当 BTC 回撤与 AI 概念币热度同时升高时，往往意味着风险资产投机情绪过热。注意 MSTR、COIN 等杠杆型加密资产的放大效应。"
+  }
+}

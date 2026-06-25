@@ -1,0 +1,22 @@
+{
+  "title": "AI Bubble Monitoring",
+  "subtitle": "When everyone is talking about AI, we calculate what it is worth.",
+  "tabs": {
+    "valuation": "Valuation Bubble",
+    "funding": "Funding Frenzy",
+    "compute": "Compute Price",
+    "sentiment": "Sentiment Gauge"
+  },
+  "charts": {
+    "pePremium": "AI Sector PE Premium Trend",
+    "pePremiumRate": "PE Premium Rate",
+    "historicalAvg": "Historical Average",
+    "mag7": "Mag7 Concentration Trend",
+    "mag7Share": "Mag7 Share",
+    "dangerLine": "Danger Line"
+  },
+  "story": {
+    "title": "Valuation Story",
+    "content": "Current AI sector valuations have surpassed the 2021 pandemic bubble but have not yet reached the 2000 dot-com peak. The difference: today's AI companies have real revenue, but whether growth can support valuations is questionable. Nasdaq 100 P/S has reached 6.5x, far exceeding the 2000 peak of 4.5x."
+  }
+}

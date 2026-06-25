@@ -1,0 +1,32 @@
+{
+  "title": "About / Methodology",
+  "stance": {
+    "title": "Our Stance",
+    "content": "We do not predict the market; we quantify anomalies. All indicators are calculated from objective data without subjective judgment. We represent no institutional interests and operate independently. We present both bullish and bearish arguments to avoid becoming a one-sided \"panic machine\".",
+    "quote": "“See the frenzy, mark the danger”"
+  },
+  "limitations": {
+    "title": "Limitations",
+    "items": [
+      "History does not repeat — past patterns may not recur",
+      "Models are lagging — indicators reflect known information",
+      "Black swans are unpredictable — extreme events exceed model scope",
+      "Data may contain errors — some values are estimates"
+    ]
+  },
+  "frequency": {
+    "title": "Update Frequency",
+    "daily": {
+      "title": "Daily",
+      "desc": "Stock prices, FX rates, interest rates, VIX, commodity prices"
+    },
+    "weekly": {
+      "title": "Weekly",
+      "desc": "Sentiment, capital flows, northbound funds, margin data"
+    },
+    "monthly": {
+      "title": "Monthly / Quarterly",
+      "desc": "PMI, employment, fiscal data, bank NPLs, developer debt"
+    }
+  }
+}

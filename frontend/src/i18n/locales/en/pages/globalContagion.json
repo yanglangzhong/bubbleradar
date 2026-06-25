@@ -1,0 +1,14 @@
+{
+  "title": "Global Contagion Risk Matrix",
+  "chartTitle": "Global Risk Linkage Indicators",
+  "risks": [
+    { "level": "danger", "title": "AI Bubble → US Stocks → Global Stocks", "trigger": "NVIDIA drops >20% in a single day", "impact": "Nasdaq, Japan/Korea/Taiwan semiconductors, A-share AI concepts" },
+    { "level": "warn", "title": "China Real Estate → Commodities → Resource Countries", "trigger": "China steel demand suddenly drops", "impact": "Iron ore, copper, AUD, CAD" },
+    { "level": "warn", "title": "China Local Debt → Banks → Credit Crunch", "trigger": "Small/medium bank chain reaction", "impact": "Domestic credit, corporate bonds, LGFV" },
+    { "level": "watch", "title": "China Exports → Supply Chain → Inflation", "trigger": "RMB depreciation + export dumping", "impact": "Southeast Asia manufacturing, US/EU inflation expectations" },
+    { "level": "watch", "title": "US-China Rate Spread → EM Capital Outflow", "trigger": "Inverted spread deepens", "impact": "ASEAN, LatAm currencies and stock markets" }
+  ],
+  "trigger": "Trigger",
+  "impact": "Impact",
+  "footnote": "US-China rate spread = US 10Y Treasury yield - China 10Y Treasury yield; Copper/Oil ratio = LME Copper / WTI crude price; EM currency index is inversely derived from EEM drawdown pressure."
+}

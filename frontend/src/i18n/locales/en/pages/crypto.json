@@ -1,0 +1,21 @@
+{
+  "title": "Crypto Asset Risk Monitor",
+  "subtitle": "Covering BTC, ETH, AI concept tokens and crypto-related equities, tracking speculative heat and drawdown risk in digital assets.",
+  "tabs": {
+    "major": "Major Coins",
+    "ai": "AI Tokens",
+    "equity": "Crypto Stocks"
+  },
+  "charts": {
+    "btcRisk": "BTC Drawdown Risk",
+    "btcScore": "BTC Risk Score",
+    "dangerLine": "Danger Line",
+    "aiHeat": "AI Token Heat",
+    "heatScore": "Heat Score",
+    "warningLine": "Warning Line"
+  },
+  "notice": {
+    "title": "Crypto Risk Notice",
+    "content": "Cryptocurrencies are highly correlated with AI concept stocks. When BTC drawdown risk and AI token heat rise simultaneously, it often signals overheated risk-asset speculation. Watch for leveraged crypto vehicles such as MSTR and COIN."
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "title": "登录 BubbleRadar",
+  "subtitle": "请输入管理员账号继续访问",
+  "email": "邮箱",
+  "password": "密码",
+  "submit": "登录",
+  "loggingIn": "登录中…",
+  "error": "登录失败，请检查邮箱和密码",
+  "defaultAccount": "默认账号：admin@example.com / admin"
+}

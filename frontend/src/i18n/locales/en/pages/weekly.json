@@ -1,0 +1,32 @@
+{
+  "title": "Weekly Alert · Briefing",
+  "issue": "Issue {{issue}} · {{date}}",
+  "issueDate": "Jun 22, 2026",
+  "scoreSummary": "Weekly composite risk index: {{score}} ({{change}} vs last week)",
+  "status": {
+    "watch": "Watch Zone",
+    "warning": "Warning Zone",
+    "danger": "Danger Zone"
+  },
+  "sections": {
+    "keyMetrics": "1. Key Metrics This Week",
+    "topSignals": "2. Top 3 Signals This Week",
+    "nextFocus": "3. Focus Next Week"
+  },
+  "metrics": {
+    "aiBubble": "AI Bubble Score: {{score}} ({{zone}}) — {{desc}}",
+    "aiBubbleDesc": "Nasdaq P/S 6.5x, near 2000 peak",
+    "chinaRisk": "China Risk Score: {{score}} ({{zone}}) — {{desc}}",
+    "chinaRiskDesc": "Property + local-debt double pressure"
+  },
+  "signals": [
+    "[🔴] SOX plunged 10.3% in a single day",
+    "[🟡] Used-home prices fell in 60 of 70 cities",
+    "[🟡] US-China rate spread inverted to -2.8%"
+  ],
+  "focus": ["Fed June rate decision", "China June PMI", "NVIDIA Q2 earnings preview"],
+  "subscribe": {
+    "title": "Subscribe to Weekly Alert",
+    "desc": "Full version will support email subscription + custom threshold push"
+  }
+}

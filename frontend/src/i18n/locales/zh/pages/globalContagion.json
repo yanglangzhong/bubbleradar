@@ -1,0 +1,14 @@
+{
+  "title": "全球传染风险矩阵",
+  "chartTitle": "全球风险联动指标",
+  "risks": [
+    { "level": "danger", "title": "AI泡沫→美股→全球股市", "trigger": "英伟达单日跌>20%", "impact": "纳斯达克、日韩台半导体、A股AI概念" },
+    { "level": "warn", "title": "中国地产→大宗商品→资源国", "trigger": "中国钢材需求骤降", "impact": "铁矿石、铜、澳元、加元" },
+    { "level": "warn", "title": "中国地方债→银行→信贷紧缩", "trigger": "中小银行连锁反应", "impact": "国内信贷、企业债、城投" },
+    { "level": "watch", "title": "中国出口→全球供应链→通胀", "trigger": "人民币贬值+出口倾销", "impact": "东南亚制造业、欧美通胀预期" },
+    { "level": "watch", "title": "中美利差→新兴市场资本外流", "trigger": "中美利差倒挂加深", "impact": "东盟、拉美货币和股市" }
+  ],
+  "trigger": "触发",
+  "impact": "影响",
+  "footnote": "中美利差倒挂 = 美国10Y国债收益率 - 中国10Y国债收益率；铜/油比 = 伦铜价格 / WTI原油价格；新兴市场货币指数由 EEM 回撤压力反向计算。"
+}

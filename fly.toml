@@ -1,0 +1,35 @@
+# Fly.io 部署配置
+# 说明：
+# 1. 安装 flyctl 并登录：fly auth login
+# 2. 创建应用：fly apps create bubbleradar-backend
+# 3. 创建 Postgres：fly postgres create --name bubbleradar-db
+# 4. 创建 Redis：fly redis create --name bubbleradar-redis（或使用 Upstash）
+# 5. 设置密钥：fly secrets set DATABASE_URL=... REDIS_URL=... SECRET_KEY=...
+# 6. 部署：fly deploy
+app = "bubbleradar-backend"
+primary_region = "sin"
+
+[build]
+  dockerfile = "backend/Dockerfile"
+
+[http_service]
+  internal_port = 8000
+  force_https = true
+  auto_stop_machines = "stop"
+  auto_start_machines = true
+  min_machines_running = 0
+  processes = ["app"]
+
+[[http_service.checks]]
+  interval = "30s"
+  timeout = "5s"
+  grace_period = "30s"
+  method = "GET"
+  path = "/health"
+  protocol = "http"
+
+[[vm]]
+  size = "shared-cpu-1x"
+  memory = "256mb"
+  cpu_kind = "shared"
+  cpus = 1

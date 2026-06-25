@@ -1,0 +1,39 @@
+# Render Blueprint
+# 部署说明：
+# 1. 在 Render 上创建 PostgreSQL（或使用 Supabase 免费 Postgres）和 Redis（或使用 Upstash 免费 Redis）
+# 2. 在 Render Dashboard 创建 Web Service 并关联本 Git 仓库
+# 3. 在 Environment 中填入 DATABASE_URL / SYNC_DATABASE_URL / REDIS_URL / 外部 API 密钥
+# 4. 将 CORS_ORIGINS 改为你的前端地址
+services:
+  - type: web
+    name: bubbleradar-backend
+    runtime: docker
+    plan: free
+    dockerfilePath: ./backend/Dockerfile
+    envVars:
+      - key: ENVIRONMENT
+        value: production
+      - key: PORT
+        value: 8000
+      - key: CORS_ORIGINS
+        value: "https://lang-6io.pages.dev"
+      # 以下变量请在 Render Dashboard 手动填入真实值，避免提交到 Git
+      - key: DATABASE_URL
+        sync: false
+      - key: SYNC_DATABASE_URL
+        sync: false
+      - key: REDIS_URL
+        sync: false
+      - key: SECRET_KEY
+        sync: false
+      - key: API_KEY
+        sync: false
+      - key: FRED_API_KEY
+        sync: false
+      - key: ALPHA_VANTAGE_API_KEY
+        sync: false
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: SENTRY_DSN
+        sync: false
+    healthCheckPath: /health

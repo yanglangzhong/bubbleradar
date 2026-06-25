@@ -1,0 +1,25 @@
+{
+  "title": "Data Lab",
+  "subtitle": "Custom indicator combinations, correlation analysis, and historical backtesting.",
+  "categories": {
+    "all": "All",
+    "ai": "AI Bubble",
+    "china": "China Risk",
+    "global": "Global Risk",
+    "crypto": "Crypto Risk"
+  },
+  "charts": {
+    "network": "Indicator Correlation Network",
+    "matrix": "Indicator Correlation Matrix",
+    "networkLoading": "Calculating network...",
+    "matrixLoading": "Calculating matrix...",
+    "networkNoData": "Insufficient historical data to generate network",
+    "matrixNoData": "Insufficient historical data to generate correlation matrix",
+    "networkHint": "Node size represents current risk score; line thickness and color represent positive/negative correlation strength (green positive / red negative)."
+  },
+  "backtest": {
+    "title": "Historical Scenario Backtest",
+    "hint": "The full version will support selecting historical events as starting points and comparing drawdowns/returns across strategies.",
+    "scenarios": ["Sep 2008", "Mar 2000", "Jun 2015", "Mar 2020"]
+  }
+}

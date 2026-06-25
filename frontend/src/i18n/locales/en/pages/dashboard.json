@@ -1,0 +1,79 @@
+{
+  "title": "Risk Dashboard",
+  "formula": "Composite = AI Bubble×0.30 + China Risk×0.30 + Global Risk×0.25 + Crypto Risk×0.15",
+  "updatedAt": "Updated at",
+  "wsConnected": "WebSocket live push",
+  "wsDisconnected": "Live connection lost",
+  "refresh": "Refresh",
+  "analysis": {
+    "pending": "System starting, data is being prepared...",
+    "running": "Analyzing latest data...",
+    "ready": "Data ready",
+    "error": "Analysis error"
+  },
+  "sections": {
+    "latestNews": "Latest Intelligence",
+    "topSignals": "Top Signals",
+    "categoryScores": "Category Scores",
+    "sourceStats": "Source Statistics",
+    "historicalChart": "Historical Risk Trend",
+    "insight": "AI Insight"
+  },
+  "category": {
+    "ai": "AI Bubble",
+    "china": "China Risk",
+    "global": "Global Risk",
+    "crypto": "Crypto Risk"
+  },
+  "scoreRange": {
+    "safe": "0-40 Safe",
+    "watch": "41-60 Watch",
+    "warning": "61-80 Warning",
+    "danger": "81-100 Danger"
+  },
+  "news": {
+    "empty": "No real-time news",
+    "loading": "News sources are connecting, please refresh later",
+    "source": "Source",
+    "openOriginal": "Open original article",
+    "verifyOriginal": "Open original article to verify"
+  },
+  "insightLabels": {
+    "sentiment": "Market sentiment",
+    "model": "Model"
+  },
+  "signals": {
+    "ai": "Today's TOP1 AI Signal",
+    "china": "Today's TOP2 China Signal",
+    "global": "Today's TOP3 Global Linkage",
+    "empty": "No prominent risk signals"
+  },
+  "chartSeries": {
+    "composite": "Composite",
+    "aiSentiment": "AI Sentiment",
+    "housing": "Housing"
+  },
+  "subsections": {
+    "subIndices": "Sub-index Comparison",
+    "aiCore": "AI Bubble Core Indicators",
+    "chinaCore": "China Risk Core Indicators",
+    "sources": "Data Sources & Reliability",
+    "live": "Live",
+    "authority": "Data Authority Notes",
+    "events": "Historical Events"
+  },
+  "sourceStats": {
+    "tooltip": "{{count}} indicators currently from {{source}}",
+    "loading": "Loading...",
+    "baseline": "Historical baseline",
+    "simulated": "Simulated",
+    "inferred": "Inferred"
+  },
+  "authorityNotes": [
+    "Global market data: Yahoo Finance + FRED (US Federal Reserve Economic Data)",
+    "China macro data: AkShare (East Money / NBS public data)",
+    "News sentiment: Yahoo Finance, BBC, Xinhua and other mainstream media RSS",
+    "Items marked \"Historical baseline\" are fallback fills without real-time data, not live quotes"
+  ],
+  "fallbackDesc": "Prioritize authoritative sources such as FRED (St. Louis Fed official), Yahoo Finance, Alpha Vantage, and AkShare (East Money and other public data). When real-time sources are temporarily unavailable, automatically fall back to the most recent real snapshot or historical baseline, and clearly label the source on the card to avoid fabricated volatility."
+}
