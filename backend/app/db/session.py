@@ -10,6 +10,9 @@ settings = get_settings()
 _async_engine_kwargs = {"echo": False, "future": True}
 if settings.DATABASE_URL.startswith("sqlite"):
     _async_engine_kwargs["connect_args"] = {"check_same_thread": False}
+elif settings.DATABASE_URL.startswith("postgresql"):
+    # Supabase/Railway 等使用 pgbouncer 时，asyncpg 的 prepared statement 会冲突
+    _async_engine_kwargs["connect_args"] = {"statement_cache_size": 0}
 
 async_engine = create_async_engine(settings.DATABASE_URL, **_async_engine_kwargs)
 AsyncSessionLocal = async_sessionmaker(async_engine, class_=AsyncSession, expire_on_commit=False)
